@@ -83,9 +83,9 @@ defaults:
   # _posts
   - scope:
       path: ""
-      type: pages
+      type: posts
     values:
-      layout: splash
+      layout: single
       author_profile: false
       read_time: false
       comments: false
