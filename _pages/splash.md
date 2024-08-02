@@ -1,4 +1,5 @@
 ---
+permalink: /splash/
 layout: splash
 title: Welcome
 ---
