@@ -80,10 +80,10 @@ footer:
       url: "https://www.instagram.com/fantasiaworkshop/"
 
 defaults:
-  # _posts
+  # _splash
   - scope:
       path: ""
-      type: posts
+      type: splash
     values:
       layout: single
       author_profile: false
@@ -91,6 +91,17 @@ defaults:
       comments: false
       share: true
       related: false
+  # _posts
+#  - scope:
+#      path: ""
+#      type: posts
+#    values:
+#      layout: single
+#      author_profile: false
+#      read_time: false
+#      comments: false
+#      share: true
+#      related: false
   # _pages
   - scope:
       path: "_pages"
